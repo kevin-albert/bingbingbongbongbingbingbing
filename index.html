@@ -73,7 +73,7 @@
 
       function fillWindow() {
         if (pending === undefined && ($(window).height() > $('rapper').height()) || $(window).scrollTop() < 100) {
-          sample(Math.random() * 0.9 + 0.2);
+          sample(Math.random() * 0.7 + 0.2);
         }
       }
 
@@ -85,7 +85,7 @@
 
 <body class="text-align: center">
   <div class="network-loading" style="font-family: Helvetica, Roboto, sans-serif; color: #1c2022; font-size: 16px; margin: auto; max-width: 100%; width: 500px;">
-    <div style="padding: 40px">Initializing 1,526,438 network parameters (This may take a minute)</div>
+    <div style="padding: 40px"><p>Initializing 1,526,438 network parameters</p><p>(This may take a minute)</p></div>
   </div>
   <div class="rapper" style="display: none; margin: auto; max-width: 100%; width: 500px">
     <div id="tweet-container" data-twitter-event-id="0" class="SandboxRoot env-bp-350" style="position: relative;">
